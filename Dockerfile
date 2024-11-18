@@ -1,4 +1,4 @@
-FROM nexus3:5000/library/alpine:3.20.3
+FROM alpine:3.20.3
 
 # proxy
 ARG HTTP_PROXY
