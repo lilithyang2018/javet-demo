@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.5</version>
+		<version>3.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.javet</groupId>
@@ -35,10 +35,81 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- Core (Must-have) -->
 		<dependency>
 			<groupId>com.caoccao.javet</groupId>
 			<artifactId>javet</artifactId>
-			<version>3.1.0</version>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- Node.js Linux (x86_64) -->
+		<dependency>
+			<groupId>com.caoccao.javet</groupId>
+			<artifactId>javet-node-linux-x86_64</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- Node.js Linux (arm64) -->
+		<dependency>
+			<groupId>com.caoccao.javet</groupId>
+			<artifactId>javet-node-linux-arm64</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- Node.js Mac OS (x86_64) -->
+		<dependency>
+			<groupId>com.caoccao.javet</groupId>
+			<artifactId>javet-node-macos-x86_64</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- Node.js Mac OS (arm64) -->
+		<dependency>
+			<groupId>com.caoccao.javet</groupId>
+			<artifactId>javet-node-macos-arm64</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- Node.js Windows (x86_64) -->
+		<dependency>
+			<groupId>com.caoccao.javet</groupId>
+			<artifactId>javet-node-windows-x86_64</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- V8 Linux (x86_64) -->
+		<dependency>
+			<groupId>com.caoccao.javet</groupId>
+			<artifactId>javet-v8-linux-x86_64</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- V8 Linux (arm64) -->
+		<dependency>
+			<groupId>com.caoccao.javet</groupId>
+			<artifactId>javet-v8-linux-arm64</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- V8 Mac OS (x86_64) -->
+		<dependency>
+			<groupId>com.caoccao.javet</groupId>
+			<artifactId>javet-v8-macos-x86_64</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- V8 Mac OS (arm64) -->
+		<dependency>
+			<groupId>com.caoccao.javet</groupId>
+			<artifactId>javet-v8-macos-arm64</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- V8 Windows (x86_64) -->
+		<dependency>
+			<groupId>com.caoccao.javet</groupId>
+			<artifactId>javet-v8-windows-x86_64</artifactId>
+			<version>4.1.1</version>
 		</dependency>
 
 		<dependency>
